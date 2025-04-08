@@ -1,0 +1,100 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #750606;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background: #880000;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(231, 174, 174);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+}
+
+section {
+    background: rgb(214, 38, 38);
+    text-align: 100%;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+/* 🔹 BACKGROUNDS */
+
+#Backgrounds {
+    background-image: url("/Projeto Raiz/IMG/Mimikyu.jpg");
+    margin: 400px;
+}
+
+.bg-example {
+    
+    background-image: url("/Projeto Raiz/IMG/Mimikyu.jpg");
+    height: 450px;
+    display: flow-root;
+    margin: 10px;
+    border: 2px solid #333;
+    width: 50%;
+    justify-content: center;
+    
+}
+
+#texto1{
+    text-align: left;
+    margin: 0 150px;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.text{
+    color: #522525;
+    text-align: center;
+    margin: 0 150px;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.destaque {
+    background: #583030;
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+footer {
+    background: #362323;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
