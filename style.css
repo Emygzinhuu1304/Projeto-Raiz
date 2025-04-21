@@ -38,44 +38,60 @@ nav ul li a {
 main {
     padding: 20px;
     display: flex;
+    flex-direction: column; /* Certifica-se de que o conteúdo da main seja exibido na vertical */
 }
 
 section {
     background: rgb(214, 38, 38);
-    flex-direction: row;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 5px;
-
 }
 
 /* 🔹 BACKGROUNDS */
-
 #Backgrounds {
-    background-image: url("../IMG/hatsune miku.jpg");
-    margin: 400px;
+    padding: 20px;
 }
 
-.bg-example {
-    
-    background-image: url("../IMG/hatsune miku.jpg");
-    height: 450px;
-    display: flow-root;
-    margin: 10px;
-    border: 2px solid #333;
-    width: 50%;
-    justify-content: center;
-    
+.container {
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    flex-direction: row; /* Agora as imagens ficam dispostas na horizontal */
+    gap: 100px; /* Espaçamento entre as imagens */
+    justify-content: center; /* Alinha as imagens no centro */
+    border-radius: 10px;
+    margin: 0 auto; /* Centraliza o container */
 }
 
-#texto1{
+.image-box {
+    text-align: center;
+}
+
+.image-box img {
+    width: 100px; /* Ajustado para 100px para deixar as imagens pequenas */
+    height: 100px; /* Ajustado para 100px para manter as imagens quadradas */
+    object-fit: cover; /* As imagens se ajustam sem distorcer */
+    display: block;
+    margin-bottom: 5px;
+}
+
+.image-box p {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Texto adicional */
+#texto1 {
     text-align: left;
     margin: 0 150px;
     padding: 20px;
     border-radius: 5px;
     text-decoration: none;
 }
-.text{
+
+.text {
     color: #522525;
     text-align: center;
     margin: 0 150px;
@@ -84,6 +100,7 @@ section {
     text-decoration: none;
 }
 
+/* Seção Destaque */
 .destaque {
     background: #583030;
     color: white;
@@ -97,3 +114,4 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
